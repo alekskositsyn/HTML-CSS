@@ -1,0 +1,32 @@
+.hading {
+    color: red;
+    background: #00f;
+    text-align: center;
+}
+img[alt='gun'] {
+    border: 3px solid green;
+}
+
+.blue {
+    color: darkblue;
+}
+
+p {
+    font-size: 16px;
+    background-image: url(img/215e6d23a9e15de3219ac2174e1fb7c4.jpeg) no-repeat center;   
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li{
+    width:70px;
+    height: 60px;
+    border: 2px solid #000;
+}
+.up_site {
+    text-transform: uppercase;
+    color: darkcyan;
+    text-decoration: none;
+}
