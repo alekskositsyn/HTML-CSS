@@ -77,4 +77,8 @@ textarea {
     width: 100%;
     height: auto;
 }
-
+.form {
+    line-height: 1.7;
+    font-style: italic;
+    font-weight: lighter;
+}
