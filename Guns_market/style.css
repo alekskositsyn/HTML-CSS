@@ -1,35 +1,80 @@
 .body {
     background: #f8f8f8;
 }
-.hading {
-    color: red;
-    background: #00f;
-    text-align: center;
+.name { 
+    font-style: italic;
+    font-weight: 600;
+    background: #eaeaea;
 }
-img[alt='gun'] {
-    border: 3px solid green;
+/* Назваине продуктов */
+.name_items {
+    color: black;
+    font-style: italic;
+    font-size:25px;
+    font-weight: 400;
+    background: #eaeaea;
 }
-
-.blue {
-    color: darkblue;
+/* Заголовки характеристик */
+.heads_desc {
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: oblique;
+    background: #eaeaea
 }
-
-p {
-    font-size: 16px;
-    background-image: url(img/215e6d23a9e15de3219ac2174e1fb7c4.jpeg) no-repeat center;   
-}
-
-.list {
-    list-style-type: none;
-}
-
-.list li{
-    width:70px;
-    height: 60px;
-    border: 2px solid #000;
-}
-.up_site {
-    text-transform: uppercase;
-    color: darkcyan;
+/*Маленькие названия продуктов*/
+.small_name{
+    color: black;
     text-decoration: none;
+    font-style:oblique;
+    font-size: 16px;    
 }
+/* Список характеристик */
+.list_desc {
+    list-style-image:url(/img/unnamedsmall.jpg
+    );
+    color: #707070;
+    font-size: 14px;
+    font-style:italic;
+    line-height:16px;
+}
+/* Подробное описание */
+.desc {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+/*Меню*/
+.menu {
+    font-size: 18px;
+    color: darkgoldenrod;
+    list-style-type: none;
+    text-decoration: none;    
+}
+/*Вернуться наверх*/
+.up_site {
+    color: darkgoldenrod;
+    text-decoration: none;
+    line-height: 40px;
+}
+/*Рамка на используя border*/
+img[alt='gun'] {
+    outline: 3px solid #000;
+}
+/*Поля ввода в Контактах*/
+input[type=text] {
+    font-style: italic;
+    font-weight: lighter;
+    width: 120px;
+    height: 20px;
+}
+/*Поле предложений в Контактах*/
+textarea {    
+    font-style: italic;
+    font-weight: lighter;
+    width: 100%;
+    height: auto;
+}
+

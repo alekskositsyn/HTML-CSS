@@ -4,36 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
+    <link rel="stylesheet" href="/style.css"> </head>
 
-<body class='body'>
-    <h1>Котакты</h1>
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог оружия</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
+<body class='body' id="p1">
+    <ul class='menu'>
+        <li><a class='menu' href="index.html">Главная</a></li>
+        <li><a class='menu' href="catalog.html">Каталог оружия</a></li>
+        <li><a class='menu' href="contacts.html">Контакты</a></li>
     </ul>
-    <h4>Со всеми вопросами и предложениями можете обращаться заполнив форму ниже, либо позвонив нам!</h4>
-    <form action="">
-        <fieldse>
-            <legend>Форма для обратной связи:</legend>
-            <input type="text" placeholder="Имя">
-            <input type="text" placeholder="Фамилия">
-            <input type="text" placeholder="Номер телефона">
-            <input type="text" placeholder="Ваш email"> </fieldse>
-        <hr>
-        <fieldse>
-            <textarea placeholder="Ваши вопросы и предложения" cols="88" rows="10"></textarea>
-        </fieldse>
+    <hr>
+    <h1 class="name">Котакты</h1>
+    <hr>
+    <h3 class="desc">Со всеми вопросами и предложениями можете обращаться заполнив форму ниже, либо позвонив нам!</h3>
+    <form class="" action="#">
+        <fieldset>
+            <legend>Форма для обратной связи:</legend> Ваше имя:
+            <input type="text" placeholder=" Имя">
+            <br> Ваша фамилия:
+            <input type="text" placeholder=" Фамилия">
+            <br> Ваш номер телефона:
+            <input type="text" placeholder=" Номер телефона">
+            <br> Ваша электоронный адрес:
+            <input type="text" placeholder=" Ваш email">
+            <hr>
+            <textarea type="text" name="Question" placeholder="Ваши вопросы и предложения..."></textarea>
+        </fieldset>
         <br>
-        <input type="submit" value="Отправить">>
-        <input type="reset" value="Очистить">> </form>
-    <h4>Наш адрес:</h4>
-    <p> г. Москва, ул.Прекрасная, д.19
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить"> </form>
+    <h3 class="name">Наш адрес:</h3>
+    <p class="smal_name"> г. Хабаровск, ул.Советская, д.1
         <br>тел. 8(495)456-78-99 </p>
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A859bba4535e1115efbeeb736309d25c51aec3dc868210897c0a57edf2127048f&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-    <hr>
+    <hr> <a class="up_site" href="#p1">Вернуться наверх</a>
     <div class="footer_copy"> © 2019-2020 Все права защищены. </div>
 </body>
 
