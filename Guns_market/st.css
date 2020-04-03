@@ -1,0 +1,19 @@
+.table {
+    border: 2px solid #000;
+    /*  border-collapse: collapse;  слияние ячеек*/
+    width: 250px;
+    height: 30px;
+    border-spacing: 4px;
+}
+
+.table td {
+    border: 2px solid darkgoldenrod;
+    vertical-align: center;
+    text-align: center;
+}
+
+.table tr:first-child {
+    height: 80px;
+    font-style: italic;
+    text-align: center;
+}
