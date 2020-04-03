@@ -2,13 +2,111 @@
     background: #f8f8f8;
 }
 
+.header {
+    background-color: black;
+    margin: auto;
+    height: 120px;
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    width: 500px;
+    outline: 2px solid black;
+}
+
+
+/*Меню
+.menu li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.menu li:last-child{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.menu li ul{
+    display:none;
+}
+.menu li:hover ul{
+    display:block;
+}
+clear: both; прекратить схлопывание в вертикальных обьектов
+overflow:hidden; скрыть перекрытие
+position:relative;
+top:50px;
+left:20px;
+z-index:1; по оси z
+posiyion:absolut;
+*/
+
+.menu {
+    position: absolute;
+    right: 30px;
+}
+
+.menu li {
+    margin-top: 21px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 2px;
+    list-style-type: none;
+    outline: 2px solid darkgoldenrod;
+}
+
+.menu li a {
+    padding-top: 8px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: olive;
+}
+
+.menu li a:active {
+    color: red;
+}
+
+img[alt="logo"] {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
 .name {
     font-style: italic;
     font-weight: 600;
     background: #eaeaea;
 }
 
-
+.catalog {
+    display: inline-block;
+    height: 180px;
+   
+}
+.small_img_item {
+    margin-left: 10px;
+    float: left
+    
+}
+.link_to_item a {
+    display: block;
+    width: 159px;
+    height: 40px;
+    text-decoration: none;
+}
 /* Назваине продуктов */
 
 .name_items {
@@ -19,13 +117,39 @@
     background: #eaeaea;
 }
 
+.img_item {
+    margin-top: 5px;
+    float: left;
+    outline: 3px solid #000;
+}
+.img_item:hover {
+    outline: none;
+}
 
+.container_desc {
+    margin-left: 310px;
+    height: 230px
+}
+.button_buy input {
+    margin-top: 19px;
+    width: 200px;
+    height: 40px;
+}
+.button_buy input:hover {
+    outline: 2px solid darkgoldenrod;
+    
+}
+.button_buy input:active {
+    color: darkgoldenrod;
+}
 /* Заголовки характеристик */
 
 .heads_desc {
+    padding-left: 5px;
+    height:;
     color: black;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 25px;
     font-style: oblique;
     background: #eaeaea
 }
@@ -44,15 +168,14 @@
 /* Список характеристик */
 
 .list_desc {
-    list-style-image: url(/img/unnamedsmall.jpg
-);
+    display: inline-block;
+    height: 30px;
     color: #707070;
-    font-size: 14px;
+    font-size: 23px;
     font-style: italic;
-    line-height: 16px;
+    line-height:24px;
+      
 }
-
-
 /* Подробное описание */
 
 .desc {
@@ -63,40 +186,30 @@
     text-align: left;
 }
 
-
-/*Меню*/
-
-.menu {
-    font-size: 18px;
+.desc:first-letter {
+    font-size: 30px;
     color: darkgoldenrod;
-    list-style-type: none;
-    text-decoration: none;
+    font-family: segoe print;
 }
-
-
-/*Вернуться наверх*/
-
-.up_site {
-    color: darkgoldenrod;
-    text-decoration: none;
-    line-height: 1.5;
-}
-
-
-/*Рамка на используя border*/
-
-img[alt='gun'] {
-    outline: 3px solid #000;
-}
-
-
 /*Поля ввода в Контактах*/
 
-input[type=text] {
+.form {
+    line-height: 1.7;
     font-style: italic;
     font-weight: lighter;
-    width: 120px;
+}
+
+input {
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: lighter;
+    width: 140px;
     height: 20px;
+}
+
+input[type=email]:hover {
+    color: darkgoldenrod;
+    background: lightgoldenrodyellow;
 }
 
 
@@ -109,8 +222,86 @@ textarea {
     height: auto;
 }
 
-.form {
-    line-height: 1.7;
+
+/*Таблица*/
+
+.table {
+    border: 2px solid #000;
+    /*  border-collapse: collapse;  слияние ячеек*/
+    width: 270px;
+    height: 30px;
+    border-spacing: 4px;
+}
+
+.table td {
+    border: 2px solid darkgoldenrod;
+}
+
+.table td:nth-child(2) {
     font-style: italic;
-    font-weight: lighter;
+    text-align: center;
+}
+
+
+/*Футер*/
+
+.footer {
+    height: 50px;
+    background-color: black;
+    font-style: italic;
+    color: darkgoldenrod;
+}
+
+.next_item {
+    color: darkgoldenrod;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 6px;
+    height: 25px;
+}
+
+.next_item a {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.next_item a:hover {
+    color: olive;
+}
+
+.copyright {
+    position: absolute;
+    right: 30px;
+    padding-top: 2px;
+}
+
+.copyright:after {
+    content: ' Все права защищены. alekskositsyn 2020';
+}
+
+
+/*Вернуться наверх*/
+
+.up_site {
+    padding-top: 4px;
+    display: block;
+    padding-left: 10px;
+    height: 25px;
+    width: 150px;
+}
+
+.up_site a {
+    display: block;
+    height: 25px;
+    width: 130px;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.up_site a:hover {
+    color: olive;
+}
+
+.map {
+    height: 374px;
 }
