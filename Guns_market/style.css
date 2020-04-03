@@ -132,7 +132,7 @@ img[alt="logo"] {
 }
 .button_buy input {
     margin-top: 19px;
-    width: 200px;
+    width: 270px;
     height: 40px;
 }
 .button_buy input:hover {
@@ -304,4 +304,7 @@ textarea {
 
 .map {
     height: 374px;
+}
+.button_buy {
+    
 }
