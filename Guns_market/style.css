@@ -1,3 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+.clr {
+    height: 200px;
+}
+.container {
+    max-width: 1200px;
+    min-width: 400px;
+    margin: 0 auto;
+    min-height: 100%;
+}
 .body {
     background: #f8f8f8;
 }
@@ -8,12 +26,7 @@
     height: 120px;
 }
 
-.container {
-    background-color: white;
-    margin: 0 auto;
-    width: 500px;
-    outline: 2px solid black;
-}
+
 
 
 /*Меню
@@ -45,8 +58,8 @@ posiyion:absolut;
 */
 
 .menu {
-    position: absolute;
-    right: 30px;
+    margin-right: 10px;
+    float: right;
 }
 
 .menu li {
@@ -102,13 +115,16 @@ img[alt="logo"] {
     
 }
 .link_to_item a {
+    color: darkgoldenrod;
     display: block;
     width: 159px;
     height: 40px;
     text-decoration: none;
 }
 /* Назваине продуктов */
-
+.link_to_item a:hover {
+    color: olive;
+}
 .name_items {
     color: black;
     font-style: italic;
@@ -179,6 +195,9 @@ img[alt="logo"] {
 /* Подробное описание */
 
 .desc {
+    width: 1200px;
+    max-width: 1200px;
+    min-width: 400px;
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -246,10 +265,12 @@ textarea {
 /*Футер*/
 
 .footer {
-    height: 50px;
+    width: 1200px;
+    height: 100px;
     background-color: black;
     font-style: italic;
     color: darkgoldenrod;
+    margin:-100px auto 0;
 }
 
 .next_item {
@@ -270,8 +291,8 @@ textarea {
 }
 
 .copyright {
-    position: absolute;
-    right: 30px;
+    margin-right: 10px;
+    float: right;
     padding-top: 2px;
 }
 
